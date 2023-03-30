@@ -20,7 +20,7 @@ El repositorio está organizado de la siguiente manera:
 **notebooks/**: Carpeta que contiene el archivo Jupyter Notebook utilizado para analizar y procesar los datos, así como para crear y entrenar el modelo de regresión lineal.
 **README.md**: Este archivo, que brinda información general sobre el proyecto.
 
-###Proceso de análisis y modelado
+### Proceso de análisis y modelado
 Carga de datos: Los datos se cargaron desde los archivos CSV a Google Colaboratory.
 
 Análisis exploratorio: Se utilizó pandas, matplotlib y seaborn para analizar los datos, identificar valores atípicos y explorar las relaciones entre las variables.
