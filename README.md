@@ -1,9 +1,9 @@
-# Proyecto de Data Science: Predicción de precios de inmuebles
+# Data Science Project: Real Estate Price Prediction
 
-Este proyecto tiene como objetivo aplicar técnicas de ciencia de datos para predecir el precio de futuros inmuebles. Se utiliza un conjunto de datos de ventas de inmuebles que incluye información sobre precios, áreas, localidades, cantidad de baños, habitaciones, así como datos socioeconómicos de las personas de las zonas donde se encuentran estos inmuebles.
+The objective of this project is to apply data science techniques to predict the prices of future real estate properties. A dataset containing information about property sales, including prices, areas, locations, number of bathrooms, bedrooms, and socio-economic data of people in the areas where these properties are located is used.
 
-### Tecnologías utilizadas
-En este proyecto se utilizaron las siguientes herramientas y tecnologías:
+### Technologies Used
+The following tools and technologies were used in this project:
 
 - Google Drive
 - Google Colaboratory
@@ -13,24 +13,24 @@ En este proyecto se utilizaron las siguientes herramientas y tecnologías:
 - Seaborn
 - Scikit-learn
 
-### Estructura del repositorio
-El repositorio está organizado de la siguiente manera:
+### Repository Structure
+The repository is organized as follows:
 
-**data/**: Carpeta que contiene los archivos CSV con los datos de ventas de inmuebles
-**notebooks/**: Carpeta que contiene el archivo Jupyter Notebook utilizado para analizar y procesar los datos, así como para crear y entrenar el modelo de regresión lineal.
-**README.md**: Este archivo, que brinda información general sobre el proyecto.
+**data/**: Folder containing CSV files with real estate sales data.
+**notebooks/**: Folder containing the Jupyter Notebook file used for data analysis and processing, as well as creating and training the linear regression model.
+**README.md**: This file, providing general information about the project.
 
-### Proceso de análisis y modelado
-Carga de datos: Los datos se cargaron desde los archivos CSV a Google Colaboratory.
+### Analysis and Modeling Process
+Data Loading: Data was loaded from the CSV files into Google Colaboratory.
 
-Análisis exploratorio: Se utilizó pandas, matplotlib y seaborn para analizar los datos, identificar valores atípicos y explorar las relaciones entre las variables.
+Exploratory Analysis: Pandas, Matplotlib, and Seaborn were used to analyze the data, identify outliers, and explore relationships between variables.
 
-Preprocesamiento de datos: Se realizaron tareas de limpieza y transformación de los datos, incluyendo la eliminación de valores faltantes, la normalización de variables y la creación de nuevas variables derivadas.
+Data Preprocessing: Data cleaning and transformation tasks were performed, including handling missing values, normalizing variables, and creating new derived variables.
 
-Modelado: Se utilizó la biblioteca scikit-learn para crear y entrenar un modelo de regresión lineal que predice el precio de los inmuebles en función de las variables predictoras.
+Modeling: The scikit-learn library was used to create and train a linear regression model that predicts property prices based on predictor variables.
 
-Validación del modelo: Se evaluó la precisión del modelo utilizando métricas como el error cuadrático medio (MSE) y el coeficiente de determinación (R2).
+Model Validation: The model's accuracy was evaluated using metrics such as Mean Squared Error (MSE) and Coefficient of Determination (R2).
 
-### Resultados y conclusiones
-El modelo de regresión lineal logró predecir con poca precisión, por ahora, el precio de futuros inmuebles en función de las variables predictoras utilizadas. Se identificaron las variables más importantes para la predicción del precio, lo que puede ser útil para la toma de decisiones en el mercado inmobiliario.
+### Results and Conclusions
+The linear regression model achieved moderate accuracy in predicting the prices of future real estate properties based on the predictor variables used. The most important variables for price prediction were identified, which can be useful for decision-making in the real estate market. However, there is room for improvement in the model's performance to achieve better predictions.
 
