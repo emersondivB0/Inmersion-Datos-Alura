@@ -5,13 +5,13 @@ The objective of this project is to apply data science techniques to predict the
 ### Technologies Used
 The following tools and technologies were used in this project:
 
-- Google Drive
-- Google Colaboratory
-- Python 3
-- Pandas
-- Matplotlib
-- Seaborn
-- Scikit-learn
+- [Google Drive](https://www.google.com/intl/en/drive/)
+- [Google Colaboratory](https://research.google.com/colaboratory/)
+- [Python 3](https://www.python.org)
+- [Pandas](https://pandas.pydata.org)
+- [Matplotlib](https://matplotlib.org)
+- [Seaborn](https://seaborn.pydata.org)
+- [Scikit-learn](https://scikit-learn.org/stable/)
 
 ### Repository Structure
 The repository is organized as follows:
